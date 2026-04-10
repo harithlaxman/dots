@@ -68,7 +68,7 @@ return {
               icon_hl = "Title",
               desc = "Lazy Menu",
               desc_hl = "ErrorMsg",
-              key = "<Leader> l l",
+              key = "<Leader> l m",
               key_format = " %s",
               key_hl = "String",
               action = "Lazy",
