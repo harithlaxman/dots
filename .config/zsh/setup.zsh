@@ -12,5 +12,3 @@ fi
 
 # ----------- Python -----------
 
-# Pyenv
-eval "$(pyenv init - zsh)"
