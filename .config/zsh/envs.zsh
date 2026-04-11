@@ -2,10 +2,6 @@
 export SCRIPTS=$XDG_CONFIG_HOME/scripts
 export ZPLUGINS=$ZDOTDIR/plugins
 
-# ----------- Pyenv -----------
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-
 export PATH="/opt/homebrew/opt/sqlite/bin:$PATH"
 export LDFLAGS="-L/opt/homebrew/opt/sqlite/lib:$LDFLAGS"
 export CPPFLAGS="-I/opt/homebrew/opt/sqlite/include:$CPPFLAGS"
