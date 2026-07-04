@@ -14,7 +14,7 @@ return {
                     },
                 },
             })
-            vim.lsp.enable({ "gopls", "clangd", "lua_ls", "pyright", "ruff" })
+            vim.lsp.enable({ "gopls", "clangd", "lua_ls", "basedpyright", "ruff" })
 
             vim.keymap.set("n", "<leader>dn", function() vim.diagnostic.jump({ count = 1, float = true }) end)
             vim.keymap.set("n", "<leader>dp", function() vim.diagnostic.jump({ count = -1, float = true }) end)
