@@ -9,6 +9,12 @@ return {
         priority = 1000, -- make sure to load this before all the other start plugins
     },
     {
+        "neanias/everforest-nvim",
+        name = "everforest",
+        version = false,
+        priority = 1000,
+    },
+    {
         "zaldih/themery.nvim",
         lazy = false,
         config = function()
@@ -33,7 +39,16 @@ return {
                                 transparent_background = true,
                             }
                         ]]
-                    }
+                    },
+                    {
+                        name = "everforest",
+                        colorscheme = "everforest",
+                        before = [[
+                            require('everforest').setup {
+                                transparent_background_level = 2
+                            }
+                        ]]
+                    },
                 },
                 livePreview = true,
             })
