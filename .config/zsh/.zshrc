@@ -35,3 +35,5 @@ path=($^path(N-/))
 
 export PATH
 
+export PATH="$HOME/.local/bin:$PATH"
+

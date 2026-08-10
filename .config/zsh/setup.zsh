@@ -10,5 +10,4 @@ if [[ -f $ZPLUGINS/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh ]]; then
     source $ZPLUGINS/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
-# ----------- Python -----------
-
+autoload -Uz compinit && compinit
