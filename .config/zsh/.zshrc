@@ -37,3 +37,8 @@ export PATH
 
 export PATH="$HOME/.local/bin:$PATH"
 
+# kimi-code
+export PATH="/Users/tars/.kimi-code/bin:$PATH"
+
+# vllm-metal
+export PATH="/Users/tars/.venv-vllm-metal/bin:$PATH"
